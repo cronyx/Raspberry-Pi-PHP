@@ -4,10 +4,10 @@
 */
 
 // include the class file
-include('Raspberry_GPIO.php');
+include('OPI_GPIO.php');
 
 // New object
-$GPIO = new Raspberry_GPIO;
+$GPIO = new OPI_GPIO;
 
 // set to use Pi pin numbers
 $GPIO->change_pin_mode(1);
